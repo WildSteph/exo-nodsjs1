@@ -1,0 +1,6 @@
+const os = require("cowsay"); 
+console.log(os.say({
+    text : "hey boy",
+    e :"Oo",
+    T : "u"
+}))
