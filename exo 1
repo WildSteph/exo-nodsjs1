@@ -1,0 +1,13 @@
+process.stdin.resume()
+process.stdin.setEncoding('utf8')
+
+console.log('What\'s your age ? ')
+process.stdin.on('data',(X) => {
+  if (X>0 && X<100){
+  console.log(2020-X)
+  process.exit()
+  }
+  else{
+    process.exit()
+  }
+})
